@@ -1,0 +1,40 @@
+# Компилируемые файлы
+*.exe
+*.o
+*.obj
+*.out
+*.ilk
+*.pdb
+
+# Visual Studio
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+.vs/
+Debug/
+Release/
+x64/
+x86/
+
+# Временные файлы
+*.tmp
+*.log
+*.bak
+*~
+.DS_Store
+Thumbs.db
+
+# Папки сборки
+build/
+bin/
+obj/
+
+# Файлы данных (исключаем всё, кроме нужных)
+*.dat
+*.bin
+!input.txt
+!output.txt
+!equations.txt
+!*.md
+!*.gitignore
