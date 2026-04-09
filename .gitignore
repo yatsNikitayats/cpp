@@ -30,11 +30,8 @@ build/
 bin/
 obj/
 
-# Файлы данных (исключаем всё, кроме нужных)
+# Файлы данных 
 *.dat
 *.bin
-!input.txt
-!output.txt
 !equations.txt
 !*.md
-!*.gitignore
